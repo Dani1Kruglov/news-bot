@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/internal/storage/article.go" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/internal/storage/migrations/20230723114054_create_sources.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/internal/storage/migrations/20230723114658_create_articles.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/internal/storage/migrations/20230723185948_create_articles_summary.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/internal/storage/source.go" dialect="GenericSQL" />
+  </component>
+</project>

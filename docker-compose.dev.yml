@@ -1,0 +1,18 @@
+version: '3.5'
+
+services:
+  db:
+    container_name: news-feed-bot
+    image:
+      postgres:15.3-alpine
+    environment:
+      POSTGRES_DB: news_feed_bot
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: root
+      PG_DATA: /var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    volumes:
+      - db:/var/lib/postgresql/data
+volumes:
+  db:
